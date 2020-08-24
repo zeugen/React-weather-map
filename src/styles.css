@@ -1,0 +1,51 @@
+*{
+      margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/img/greg-becker--0_ww2ACIw8-unsplash.jpg) center no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.2), rgba(0,0,0,0.85));
+
+}
+.widget{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input-group >input{
+  color:white;
+   border:none;
+  background-color: rgba(255,255,255,0.175);
+}
+.input-group  >input[type=text]:focus {
+  color:white;
+    border:none;
+  box-shadow: none;
+  outline: none;
+   background-color: rgba(255,255,255,0.25);
+}
+
+
+.location-box{
+    color:white;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+     /* background-color: rgba(255,255,255,0.7); */
+}
